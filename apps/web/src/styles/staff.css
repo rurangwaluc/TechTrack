@@ -37,7 +37,7 @@
   display: grid;
   place-items: center;
   background: var(--blue-lt);
-  color: #b45309;
+  color: #0057CC;
   border: 1px solid rgba(245, 158, 11, 0.22);
 }
 
@@ -190,7 +190,7 @@
 }
 
 .staff-responsibility svg {
-  color: #b45309;
+  color: #0057CC;
   flex-shrink: 0;
 }
 
@@ -308,6 +308,7 @@
     width: 100%;
   }
 }
+
 
 
 

@@ -899,3 +899,4 @@ function CashRule({ icon, title, text, checked, onChange }: CashRuleProps) {
 
 
 
+

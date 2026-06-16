@@ -37,7 +37,7 @@
   height: 48px;
   border-radius: 14px;
   background: var(--blue-lt);
-  color: #b45309;
+  color: #0057CC;
   display: grid;
   place-items: center;
   margin-top: 22px;
@@ -130,6 +130,7 @@
   background: var(--gray-100);
   color: var(--gray-900);
 }
+
 
 
 
