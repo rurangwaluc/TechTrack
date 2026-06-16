@@ -1,0 +1,8 @@
+node_modules
+.env
+.env.local
+apps/api/.env
+apps/web/.env.local
+packages/db/.env
+dist
+.next
