@@ -1,7 +1,7 @@
 {
-  "name": "Vuba Electronics",
-  "short_name": "Vuba",
-  "description": "Business control system for Vuba Electronics.",
+  "name": "Tech Track",
+  "short_name": "Tech Track",
+  "description": "Business control system for TechTrack",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
