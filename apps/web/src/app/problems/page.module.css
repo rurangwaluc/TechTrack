@@ -51,14 +51,14 @@
   gap: 12px;
   align-items: flex-start;
   border: 1px solid rgba(245, 158, 11, 0.35);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
   border-radius: 16px;
   box-shadow: var(--sh);
 }
 
 .permissionNotice svg {
   flex: 0 0 auto;
-  color: var(--orange);
+  color: var(--blue);
   margin-top: 2px;
 }
 
@@ -96,7 +96,7 @@
 
 .summaryCardWarning {
   border: 1px solid rgba(245, 158, 11, 0.35);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
 }
 
 .summaryIntro {
@@ -265,13 +265,13 @@
   display: grid;
   place-items: center;
   border-radius: 13px;
-  color: var(--orange);
-  background: var(--orange-lt);
+  color: var(--blue);
+  background: var(--blue-lt);
   border: 1px solid rgba(245, 158, 11, 0.2);
 }
 
 [data-theme="dark"] .problemIcon {
-  color: #fbbf24;
+  color: #38BDF8;
 }
 
 .problemContent {
@@ -493,3 +493,6 @@
     height: 36px;
   }
 }
+
+
+

@@ -46,7 +46,7 @@
 
 .statusWarning {
   border-color: rgba(245, 158, 11, 0.35);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
 }
 
 .statusMain {
@@ -297,3 +297,6 @@
     font-size: 20px;
   }
 }
+
+
+

@@ -427,7 +427,7 @@ export default function SettingsPage() {
                 value={String(cleanBankAccounts(bankAccounts).length)}
                 help="Accounts saved for business payment details"
                 badge="Money"
-                badgeClass="badge badge-orange"
+                badgeClass="badge badge-blue"
               />
 
               <MetricCard
@@ -454,7 +454,7 @@ export default function SettingsPage() {
                     </div>
                   </div>
 
-                  <Building2 size={20} style={{ color: "var(--orange)" }} />
+                  <Building2 size={20} style={{ color: "var(--blue)" }} />
                 </div>
 
                 <div className={styles.formBody}>
@@ -685,7 +685,7 @@ export default function SettingsPage() {
                       </div>
                     </div>
 
-                    <FileText size={20} style={{ color: "var(--orange)" }} />
+                    <FileText size={20} style={{ color: "var(--blue)" }} />
                   </div>
 
                   <div className={styles.formBody}>
@@ -734,7 +734,7 @@ export default function SettingsPage() {
                       </div>
                     </div>
 
-                    <Globe size={20} style={{ color: "var(--orange)" }} />
+                    <Globe size={20} style={{ color: "var(--blue)" }} />
                   </div>
 
                   <div className={styles.formBody}>
@@ -769,7 +769,7 @@ export default function SettingsPage() {
                       </div>
                     </div>
 
-                    <WalletCards size={20} style={{ color: "var(--orange)" }} />
+                    <WalletCards size={20} style={{ color: "var(--blue)" }} />
                   </div>
 
                   <div className={styles.formBody}>
@@ -896,3 +896,6 @@ function CashRule({ icon, title, text, checked, onChange }: CashRuleProps) {
     </label>
   );
 }
+
+
+

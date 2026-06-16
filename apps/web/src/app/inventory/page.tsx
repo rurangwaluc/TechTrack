@@ -499,7 +499,7 @@ export default function InventoryPage() {
             badge="Check"
             badgeClass={
               totalDamagedOnArrival > 0
-                ? "badge badge-orange"
+                ? "badge badge-blue"
                 : "badge badge-green"
             }
           />
@@ -530,7 +530,7 @@ export default function InventoryPage() {
               <Loader2
                 className="spin"
                 size={20}
-                style={{ color: "var(--orange)" }}
+                style={{ color: "var(--blue)" }}
               />
             ) : null}
           </div>
@@ -976,7 +976,7 @@ export default function InventoryPage() {
                             <span
                               className={
                                 damagedQuantity > 0
-                                  ? "badge badge-orange"
+                                  ? "badge badge-blue"
                                   : "badge badge-green"
                               }
                             >
@@ -1211,3 +1211,6 @@ function EmptyCard({ icon, title, text }: EmptyCardProps) {
     </div>
   );
 }
+
+
+

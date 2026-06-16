@@ -48,7 +48,7 @@ function hasPermission(user: AuthUser | null, permission: string) {
 }
 
 function getSeverityBadge(severity: ProblemSeverity) {
-  if (severity === "critical") return "badge badge-orange";
+  if (severity === "critical") return "badge badge-blue";
   if (severity === "warning") return "badge badge-blue";
   return "badge badge-green";
 }
@@ -287,7 +287,7 @@ export default function ProblemsPage() {
                 badge="Now"
                 badgeClass={
                   criticalProblems.length > 0
-                    ? "badge badge-orange"
+                    ? "badge badge-blue"
                     : "badge badge-green"
                 }
               />
@@ -300,7 +300,7 @@ export default function ProblemsPage() {
                 badge="Review"
                 badgeClass={
                   warningProblems.length > 0
-                    ? "badge badge-orange"
+                    ? "badge badge-blue"
                     : "badge badge-green"
                 }
               />
@@ -472,7 +472,7 @@ function ProblemSection({
 
         <span
           className={
-            problems.length > 0 ? "badge badge-orange" : "badge badge-green"
+            problems.length > 0 ? "badge badge-blue" : "badge badge-green"
           }
         >
           {problems.length > 0 ? `${problems.length} item(s)` : "Clean"}
@@ -519,3 +519,6 @@ function ProblemSection({
     </section>
   );
 }
+
+
+

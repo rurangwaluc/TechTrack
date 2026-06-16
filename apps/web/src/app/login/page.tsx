@@ -40,7 +40,7 @@ export default function LoginPage() {
           <div className="auth-top-row">
             <a className="brand" href="/">
               <span className="brand-icon">E</span>
-              <span>ElectroControl</span>
+              <span>TechTrack</span>
             </a>
             <ThemeToggle />
           </div>
@@ -108,3 +108,6 @@ export default function LoginPage() {
     </main>
   );
 }
+
+
+

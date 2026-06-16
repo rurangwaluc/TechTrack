@@ -48,7 +48,7 @@
 }
 
 .heroTitle span {
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .heroText {
@@ -195,8 +195,8 @@
 }
 
 .activeMenuItem {
-  background: var(--orange-lt);
-  color: var(--orange) !important;
+  background: var(--blue-lt);
+  color: var(--blue) !important;
 }
 
 .previewContent {
@@ -350,7 +350,7 @@
 }
 
 .flowCard span {
-  color: var(--orange);
+  color: var(--blue);
   font-size: 12px;
   font-weight: 950;
 }
@@ -575,3 +575,6 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+

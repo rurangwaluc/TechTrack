@@ -129,8 +129,8 @@
   display: grid;
   place-items: center;
   border-radius: 14px;
-  color: var(--orange);
-  background: var(--orange-lt);
+  color: var(--blue);
+  background: var(--blue-lt);
   border: 1px solid rgba(245, 158, 11, 0.2);
 }
 
@@ -167,7 +167,7 @@
 
 .cardActionButton:hover {
   border-color: rgba(245, 158, 11, 0.45);
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .viewOnly {
@@ -223,7 +223,7 @@
 
 .miniInfoWarning {
   border-color: rgba(249, 115, 22, 0.24);
-  background: var(--orange-lt);
+  background: var(--blue-lt);
 }
 
 .customerNotes {
@@ -265,7 +265,7 @@
 }
 
 .emptyState svg {
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .emptyState strong {
@@ -425,3 +425,6 @@
     gap: 6px;
   }
 }
+
+
+

@@ -9,7 +9,7 @@
 :root {
   --sb-bg: #111827;
   --sb-hover: #1f2937;
-  --sb-active: #f59e0b;
+  --sb-active: #006CFD;
   --sb-txt: #9ca3af;
   --sb-border: #374151;
 
@@ -17,14 +17,14 @@
   --primary-h: #000000;
   --primary-lt: #fff7ed;
 
-  --gold: #f59e0b;
-  --gold-lt: #fff7ed;
+  --blue: #006CFD;
+  --blue-lt: #fff7ed;
 
   --green: #16a34a;
   --green-lt: #dcfce7;
 
-  --orange: #f97316;
-  --orange-lt: #ffedd5;
+  --blue: #006CFD;
+  --blue-lt: #ffedd5;
 
   --purple: #7c3aed;
   --purple-lt: #ede9fe;
@@ -59,16 +59,16 @@
 [data-theme="dark"] {
   --sb-bg: #050505;
   --sb-hover: #171717;
-  --sb-active: #f59e0b;
+  --sb-active: #006CFD;
   --sb-txt: #a3a3a3;
   --sb-border: #262626;
 
-  --primary: #f59e0b;
-  --primary-h: #d97706;
+  --primary: #006CFD;
+  --primary-h: #0057CC;
   --primary-lt: rgba(245, 158, 11, 0.14);
 
-  --gold: #f59e0b;
-  --gold-lt: rgba(245, 158, 11, 0.14);
+  --blue: #006CFD;
+  --blue-lt: rgba(245, 158, 11, 0.14);
 
   --bg: #0a0a0a;
   --card: #111111;
@@ -85,7 +85,7 @@
   --gray-900: #ffffff;
 
   --green-lt: rgba(22, 163, 74, 0.16);
-  --orange-lt: rgba(249, 115, 22, 0.16);
+  --blue-lt: rgba(249, 115, 22, 0.16);
   --purple-lt: rgba(124, 58, 237, 0.16);
   --red-lt: rgba(220, 38, 38, 0.16);
 }
@@ -136,3 +136,6 @@ button {
     transform: rotate(360deg);
   }
 }
+
+
+

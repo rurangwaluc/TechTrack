@@ -279,7 +279,7 @@ export function AppShell({ children, title }: AppShellProps) {
       >
         <div className="sidebar-logo">
           <div className="logo-icon">E</div>
-          <span className="logo-text">ElectroControl</span>
+          <span className="logo-text">TechTrack</span>
 
           <button
             className="collapse-btn"
@@ -429,3 +429,6 @@ export function AppShell({ children, title }: AppShellProps) {
     </div>
   );
 }
+
+
+

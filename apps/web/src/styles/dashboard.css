@@ -78,8 +78,8 @@
   border-color: rgba(22, 163, 74, 0.18);
 }
 
-.badge-orange {
-  background: var(--orange-lt);
+.badge-blue {
+  background: var(--blue-lt);
   color: #c2410c;
   border-color: rgba(249, 115, 22, 0.2);
 }
@@ -95,13 +95,13 @@
   border-color: rgba(34, 197, 94, 0.28);
 }
 
-[data-theme="dark"] .badge-orange {
+[data-theme="dark"] .badge-blue {
   color: #fdba74;
   border-color: rgba(249, 115, 22, 0.28);
 }
 
 [data-theme="dark"] .badge-blue {
-  color: #fbbf24;
+  color: #38BDF8;
   border-color: rgba(245, 158, 11, 0.28);
 }
 
@@ -272,7 +272,7 @@
 }
 
 [data-theme="dark"] .quick-action svg {
-  color: #fbbf24;
+  color: #38BDF8;
 }
 
 .quick-action span {
@@ -310,7 +310,7 @@
 }
 
 [data-theme="dark"] .attention-item svg {
-  color: #fbbf24;
+  color: #38BDF8;
 }
 
 .attention-item strong {
@@ -366,3 +366,6 @@
     font-size: 24px;
   }
 }
+
+
+

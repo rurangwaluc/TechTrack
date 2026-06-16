@@ -36,13 +36,13 @@
   border-radius: 14px;
   display: grid;
   place-items: center;
-  background: var(--gold-lt);
+  background: var(--blue-lt);
   color: #b45309;
   border: 1px solid rgba(245, 158, 11, 0.22);
 }
 
 [data-theme="dark"] .staff-modal-icon {
-  color: #fbbf24;
+  color: #38BDF8;
   border-color: rgba(245, 158, 11, 0.32);
 }
 
@@ -130,7 +130,7 @@
 .staff-form-group input:focus,
 .staff-form-group select:focus,
 .staff-form-group textarea:focus {
-  border-color: var(--orange);
+  border-color: var(--blue);
   box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.14);
 }
 
@@ -172,7 +172,7 @@
 
 .staff-responsibility.selected {
   border-color: rgba(245, 158, 11, 0.55);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
 }
 
 .staff-responsibility strong {
@@ -195,7 +195,7 @@
 }
 
 [data-theme="dark"] .staff-responsibility svg {
-  color: #fbbf24;
+  color: #38BDF8;
 }
 
 .staff-responsibility span {
@@ -308,3 +308,6 @@
     width: 100%;
   }
 }
+
+
+

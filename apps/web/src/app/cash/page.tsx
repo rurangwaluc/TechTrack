@@ -511,7 +511,7 @@ export default function CashPage() {
                 ? "badge badge-green"
                 : isClosed
                   ? "badge badge-blue"
-                  : "badge badge-orange"
+                  : "badge badge-blue"
             }
           />
 
@@ -530,7 +530,7 @@ export default function CashPage() {
             value={formatRwf(totals.moneyOutRwf)}
             help={`${moneyOutRows.length} money-out record(s)`}
             badge="Money out"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <MetricCard
@@ -557,7 +557,7 @@ export default function CashPage() {
                 <Loader2
                   className="spin"
                   size={20}
-                  style={{ color: "var(--orange)" }}
+                  style={{ color: "var(--blue)" }}
                 />
               ) : null}
             </div>
@@ -1191,7 +1191,7 @@ function LedgerCard({ entry }: LedgerCardProps) {
             isMoneyIn
               ? "badge badge-green"
               : isMoneyOut
-                ? "badge badge-orange"
+                ? "badge badge-blue"
                 : "badge badge-blue"
           }
         >
@@ -1242,3 +1242,6 @@ function ModalFooter({ saving, onCancel, label }: ModalFooterProps) {
     </div>
   );
 }
+
+
+

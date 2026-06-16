@@ -517,7 +517,7 @@ export default function StaffPage() {
             value={`${activeEmployees.length}/2`}
             help={`${inactiveEmployees.length} inactive employee account(s)`}
             badge="Fixed"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <MetricCard
@@ -559,7 +559,7 @@ export default function StaffPage() {
                 <Loader2
                   className="spin"
                   size={20}
-                  style={{ color: "var(--orange)" }}
+                  style={{ color: "var(--blue)" }}
                 />
               ) : null}
             </div>
@@ -634,14 +634,14 @@ export default function StaffPage() {
 
                   <span
                     className={
-                      user.isActive ? "badge badge-green" : "badge badge-orange"
+                      user.isActive ? "badge badge-green" : "badge badge-blue"
                     }
                   >
                     {user.isActive ? "Active" : "Inactive"}
                   </span>
 
                   {user.role === "owner" ? (
-                    <span className="badge badge-orange">
+                    <span className="badge badge-blue">
                       <ShieldCheck size={12} />
                       Full control
                     </span>
@@ -1113,3 +1113,6 @@ function ModalFooter({ onCancel, saving, label }: ModalFooterProps) {
     </div>
   );
 }
+
+
+

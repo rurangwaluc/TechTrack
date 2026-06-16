@@ -458,12 +458,12 @@ export default function DashboardPage() {
               <Loader2
                 className="spin"
                 size={20}
-                style={{ color: "var(--orange)" }}
+                style={{ color: "var(--blue)" }}
               />
             ) : (
               <span
                 className={
-                  problemCount > 0 ? "badge badge-orange" : "badge badge-green"
+                  problemCount > 0 ? "badge badge-blue" : "badge badge-green"
                 }
               >
                 {problemCount > 0
@@ -599,7 +599,7 @@ export default function DashboardPage() {
             value={formatRwf(cashTotals.moneyOutRwf)}
             help={`${todayExpenses.length} approved expense(s) today`}
             badge="Out"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <PremiumMetric
@@ -609,7 +609,7 @@ export default function DashboardPage() {
             help="Money received minus money spent"
             badge="Net"
             badgeClass={
-              netMoneyMovement >= 0 ? "badge badge-green" : "badge badge-orange"
+              netMoneyMovement >= 0 ? "badge badge-green" : "badge badge-blue"
             }
           />
 
@@ -624,7 +624,7 @@ export default function DashboardPage() {
                 ? "badge badge-green"
                 : isCashClosed
                   ? "badge badge-blue"
-                  : "badge badge-orange"
+                  : "badge badge-blue"
             }
           />
         </div>
@@ -645,7 +645,7 @@ export default function DashboardPage() {
             value={formatRwf(openDebtTotal)}
             help={`${openDebts.length} customer(s) still owe money`}
             badge="Pay later"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <PremiumMetric
@@ -665,7 +665,7 @@ export default function DashboardPage() {
             badge="Approval"
             badgeClass={
               pendingExpenses.length > 0
-                ? "badge badge-orange"
+                ? "badge badge-blue"
                 : "badge badge-green"
             }
           />
@@ -986,3 +986,6 @@ function ActivityPanel({
     </section>
   );
 }
+
+
+

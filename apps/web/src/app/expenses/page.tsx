@@ -84,7 +84,7 @@ function hasPermission(user: AuthUser | null, permission: string) {
 
 function statusBadgeClass(status: ExpenseStatus) {
   if (status === "approved") return "badge badge-green";
-  if (status === "rejected") return "badge badge-orange";
+  if (status === "rejected") return "badge badge-blue";
   return "badge badge-blue";
 }
 
@@ -513,7 +513,7 @@ export default function ExpensesPage() {
             value={formatRwf(totalWaitingAmount)}
             help={`${waitingExpenses.length} waiting owner approval`}
             badge="Review"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <MetricCard
@@ -522,7 +522,7 @@ export default function ExpensesPage() {
             value={String(rejectedExpenses.length)}
             help="Rejected or invalid expense requests"
             badge="Rejected"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
         </div>
 
@@ -541,7 +541,7 @@ export default function ExpensesPage() {
               <Loader2
                 className="spin"
                 size={20}
-                style={{ color: "var(--orange)" }}
+                style={{ color: "var(--blue)" }}
               />
             ) : null}
           </div>
@@ -615,7 +615,7 @@ export default function ExpensesPage() {
                         </span>
 
                         {expense.isActive !== 1 ? (
-                          <span className="badge badge-orange">Inactive</span>
+                          <span className="badge badge-blue">Inactive</span>
                         ) : null}
                       </div>
                     </div>
@@ -1026,3 +1026,6 @@ function ModalFooter({ saving, onCancel, label, disabled }: ModalFooterProps) {
     </div>
   );
 }
+
+
+

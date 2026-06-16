@@ -33,12 +33,12 @@
   height: 34px;
   border-radius: 9px;
   background: #111827;
-  color: #f59e0b;
+  color: #006CFD;
   display: grid;
   place-items: center;
   font-weight: 900;
   box-shadow: var(--sh);
-  border: 1px solid rgba(245, 158, 11, 0.35);
+  border: 1px solid rgba(11, 151, 245, 0.35);
 }
 
 .header-actions {
@@ -61,8 +61,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--gold-lt);
-  color: #92400e;
+  background: var(--blue-lt);
+  color: #003B8E;
   border: 1px solid rgba(245, 158, 11, 0.28);
   padding: 7px 12px;
   border-radius: 999px;
@@ -323,3 +323,6 @@
     display: none;
   }
 }
+
+
+

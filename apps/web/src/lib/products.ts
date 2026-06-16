@@ -132,3 +132,6 @@ export async function activateProduct(token: string, id: string) {
     },
   );
 }
+
+
+

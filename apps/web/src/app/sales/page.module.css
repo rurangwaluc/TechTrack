@@ -29,8 +29,8 @@
   gap: 7px;
   padding: 7px 10px;
   border-radius: 999px;
-  background: var(--orange-lt);
-  color: var(--orange);
+  background: var(--blue-lt);
+  color: var(--blue);
   font-size: 11px;
   font-weight: 950;
   margin-bottom: 10px;
@@ -74,7 +74,7 @@
 
 .noticeCard {
   border: 1px solid rgba(245, 158, 11, 0.35);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
 }
 
 .readyCard {
@@ -91,7 +91,7 @@
 }
 
 .noticeContent svg {
-  color: var(--orange);
+  color: var(--blue);
   flex: 0 0 auto;
 }
 
@@ -181,8 +181,8 @@
   display: grid;
   place-items: center;
   border-radius: 11px;
-  background: var(--orange-lt);
-  color: var(--orange);
+  background: var(--blue-lt);
+  color: var(--blue);
   font-size: 12px;
   font-weight: 950;
 }
@@ -256,7 +256,7 @@
 
 .productResult:hover {
   border-color: rgba(245, 158, 11, 0.38);
-  background: var(--orange-lt);
+  background: var(--blue-lt);
 }
 
 .productResult:disabled {
@@ -270,7 +270,7 @@
   display: grid;
   place-items: center;
   border-radius: 14px;
-  color: var(--orange);
+  color: var(--blue);
   background: var(--card);
   border: 1px solid rgba(245, 158, 11, 0.22);
 }
@@ -307,7 +307,7 @@
 }
 
 .stockBad {
-  color: var(--orange) !important;
+  color: var(--blue) !important;
 }
 
 .addPill {
@@ -493,8 +493,8 @@
 }
 
 .priceDiscount {
-  color: var(--orange);
-  background: var(--orange-lt);
+  color: var(--blue);
+  background: var(--blue-lt);
 }
 
 .priceWarning {
@@ -514,8 +514,8 @@
   justify-content: center;
   gap: 7px;
   border: 1px solid rgba(245, 158, 11, 0.32);
-  background: var(--orange-lt);
-  color: var(--orange);
+  background: var(--blue-lt);
+  color: var(--blue);
   border-radius: 13px;
   font-size: 12px;
   font-weight: 950;
@@ -567,9 +567,9 @@
 }
 
 .choiceChipSelected {
-  background: var(--orange-lt);
+  background: var(--blue-lt);
   border-color: rgba(245, 158, 11, 0.55);
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .choiceChipDisabled {
@@ -592,7 +592,7 @@
 }
 
 .selectedCustomer svg {
-  color: var(--orange);
+  color: var(--blue);
   flex: 0 0 auto;
 }
 
@@ -670,12 +670,12 @@
 
 .balanceBox {
   border-color: rgba(245, 158, 11, 0.28);
-  background: var(--orange-lt);
+  background: var(--blue-lt);
 }
 
 .balanceBox strong,
 .warningText {
-  color: var(--orange) !important;
+  color: var(--blue) !important;
 }
 
 .paidBox {
@@ -852,3 +852,6 @@
     font-size: 27px;
   }
 }
+
+
+

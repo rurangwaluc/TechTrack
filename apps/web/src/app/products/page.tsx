@@ -418,7 +418,7 @@ export default function ProductsPage() {
               <Loader2
                 className="spin"
                 size={20}
-                style={{ color: "var(--orange)" }}
+                style={{ color: "var(--blue)" }}
               />
             ) : (
               <span className="badge badge-blue">
@@ -927,3 +927,6 @@ function EmptyCard({ icon, title, text }: EmptyCardProps) {
     </div>
   );
 }
+
+
+

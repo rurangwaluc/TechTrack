@@ -412,7 +412,7 @@ export default function CustomersPage() {
             value={String(inactiveCustomers.length)}
             help="Customers hidden from normal work"
             badge="Inactive"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
         </div>
 
@@ -436,7 +436,7 @@ export default function CustomersPage() {
                 <Loader2
                   className="spin"
                   size={20}
-                  style={{ color: "var(--orange)" }}
+                  style={{ color: "var(--blue)" }}
                 />
               ) : null}
             </div>
@@ -505,7 +505,7 @@ export default function CustomersPage() {
                     className={
                       customer.isActive
                         ? "badge badge-green"
-                        : "badge badge-orange"
+                        : "badge badge-blue"
                     }
                   >
                     {customer.isActive ? "Active" : "Inactive"}
@@ -785,3 +785,6 @@ function MiniInfo({ label, value, tone = "default" }: MiniInfoProps) {
     </div>
   );
 }
+
+
+

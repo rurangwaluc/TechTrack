@@ -34,14 +34,14 @@
   gap: 12px;
   align-items: flex-start;
   border: 1px solid rgba(245, 158, 11, 0.35);
-  background: var(--gold-lt);
+  background: var(--blue-lt);
   border-radius: 16px;
   box-shadow: var(--sh);
 }
 
 .ownerOnlyNotice svg {
   flex: 0 0 auto;
-  color: var(--orange);
+  color: var(--blue);
   margin-top: 2px;
 }
 
@@ -266,7 +266,7 @@
 
 .emptyBankCard svg {
   flex: 0 0 auto;
-  color: var(--orange);
+  color: var(--blue);
   margin-top: 2px;
 }
 
@@ -504,3 +504,6 @@
     margin-top: 2px;
   }
 }
+
+
+

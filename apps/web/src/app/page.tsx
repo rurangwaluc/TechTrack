@@ -53,7 +53,7 @@ export default function LandingPage() {
       <header className={styles.header}>
         <a className="brand" href="/">
           <span className="brand-icon">E</span>
-          <span className={styles.brandText}>ElectroControl</span>
+          <span className={styles.brandText}>TechTrack</span>
         </a>
 
         <div className={styles.headerActions}>
@@ -74,7 +74,7 @@ export default function LandingPage() {
         <div className={styles.heroCopy}>
           <div className="hero-kicker">
             <CheckCircle2 size={15} />
-            One-shop electronics business control system
+            One-shop business control system
           </div>
 
           <h1 className={styles.heroTitle}>
@@ -200,7 +200,7 @@ export default function LandingPage() {
                 <div className={styles.previewItem}>
                   <div className={styles.previewItemTop}>
                     <span>Customer took product</span>
-                    <span className="badge badge-orange">Pay later</span>
+                    <span className="badge badge-blue">Pay later</span>
                   </div>
 
                   <div className={styles.previewItemMeta}>
@@ -226,7 +226,7 @@ export default function LandingPage() {
                 <div className={styles.previewItem}>
                   <div className={styles.previewItemTop}>
                     <span>Owner attention needed</span>
-                    <span className="badge badge-orange">Review</span>
+                    <span className="badge badge-blue">Review</span>
                   </div>
 
                   <div className={styles.previewItemMeta}>
@@ -302,3 +302,6 @@ export default function LandingPage() {
     </main>
   );
 }
+
+
+

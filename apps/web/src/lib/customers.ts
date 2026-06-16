@@ -79,3 +79,6 @@ export async function deactivateCustomer(token: string, id: string) {
     isActive: false,
   });
 }
+
+
+

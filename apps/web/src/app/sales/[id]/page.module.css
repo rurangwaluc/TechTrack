@@ -59,8 +59,8 @@
   flex: 0 0 auto;
   display: grid;
   place-items: center;
-  color: var(--orange);
-  background: var(--orange-lt);
+  color: var(--blue);
+  background: var(--blue-lt);
   border: 1px solid rgba(245, 158, 11, 0.24);
 }
 
@@ -158,7 +158,7 @@
 }
 
 [data-theme="dark"] .infoIcon {
-  color: #fbbf24;
+  color: #38BDF8;
 }
 
 .infoBody {
@@ -311,7 +311,7 @@
 }
 
 .emptyCard svg {
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .emptyCard strong {
@@ -460,3 +460,6 @@
     border-radius: 14px;
   }
 }
+
+
+

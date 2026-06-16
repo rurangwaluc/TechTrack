@@ -36,7 +36,7 @@
   width: 48px;
   height: 48px;
   border-radius: 14px;
-  background: var(--gold-lt);
+  background: var(--blue-lt);
   color: #b45309;
   display: grid;
   place-items: center;
@@ -87,7 +87,7 @@
 }
 
 .form-input:focus {
-  border-color: var(--gold);
+  border-color: var(--blue);
   box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.14);
 }
 
@@ -130,3 +130,6 @@
   background: var(--gray-100);
   color: var(--gray-900);
 }
+
+
+

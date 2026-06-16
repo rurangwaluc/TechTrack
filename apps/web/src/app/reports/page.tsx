@@ -148,7 +148,7 @@ export default function ReportsPage() {
     if (problems > 0) {
       return {
         label: "Needs attention",
-        className: "badge badge-orange",
+        className: "badge badge-blue",
         text: `${problems} issue(s) need owner review before closing this business day.`,
       };
     }
@@ -163,17 +163,17 @@ export default function ReportsPage() {
   const profitBadgeClass =
     report && report.summary.netProfitRwf >= 0
       ? "badge badge-green"
-      : "badge badge-orange";
+      : "badge badge-blue";
 
   const grossProfitBadgeClass =
     report && report.summary.grossProfitRwf >= 0
       ? "badge badge-green"
-      : "badge badge-orange";
+      : "badge badge-blue";
 
   const cashFlowBadgeClass =
     report && report.summary.netMoneyMovementRwf >= 0
       ? "badge badge-green"
-      : "badge badge-orange";
+      : "badge badge-blue";
 
   useEffect(() => {
     loadReport(date);
@@ -407,7 +407,7 @@ export default function ReportsPage() {
                 value={formatRwf(report.summary.approvedExpensesRwf)}
                 help={`${report.summary.approvedExpensesCount} approved expense(s)`}
                 badge="Expense"
-                badgeClass="badge badge-orange"
+                badgeClass="badge badge-blue"
               />
 
               <ReportMetric
@@ -436,7 +436,7 @@ export default function ReportsPage() {
                 value={formatRwf(report.summary.moneyOutRwf)}
                 help="All approved money-out movement"
                 badge="Cash out"
-                badgeClass="badge badge-orange"
+                badgeClass="badge badge-blue"
               />
 
               <ReportMetric
@@ -456,7 +456,7 @@ export default function ReportsPage() {
                 badge="Debts"
                 badgeClass={
                   report.summary.openCustomerDebtRwf > 0
-                    ? "badge badge-orange"
+                    ? "badge badge-blue"
                     : "badge badge-green"
                 }
               />
@@ -469,7 +469,7 @@ export default function ReportsPage() {
                 badge="Approval"
                 badgeClass={
                   report.summary.pendingExpensesCount > 0
-                    ? "badge badge-orange"
+                    ? "badge badge-blue"
                     : "badge badge-green"
                 }
               />
@@ -491,7 +491,7 @@ export default function ReportsPage() {
                 badge="Empty"
                 badgeClass={
                   report.summary.zeroStockCount > 0
-                    ? "badge badge-orange"
+                    ? "badge badge-blue"
                     : "badge badge-green"
                 }
               />
@@ -594,7 +594,7 @@ export default function ReportsPage() {
                       ? "badge badge-green"
                       : report.cashSession?.status === "closed"
                         ? "badge badge-blue"
-                        : "badge badge-orange"
+                        : "badge badge-blue"
                   }
                 />
 
@@ -795,7 +795,7 @@ export default function ReportsPage() {
                           entry.direction === "money_in"
                             ? "badge badge-green"
                             : entry.direction === "money_out"
-                              ? "badge badge-orange"
+                              ? "badge badge-blue"
                               : "badge badge-blue"
                         }
                       >
@@ -1046,3 +1046,6 @@ function LedgerDetail({ label, value }: LedgerDetailProps) {
     </div>
   );
 }
+
+
+

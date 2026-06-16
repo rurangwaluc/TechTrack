@@ -358,7 +358,7 @@ export default function DebtsPage() {
             value={formatRwf(totalDebtBalance)}
             help="Money customers still owe"
             badge="Balance"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <MetricCard
@@ -367,7 +367,7 @@ export default function DebtsPage() {
             value={String(pendingDebts.length)}
             help="Customers who still need to pay"
             badge="Pending"
-            badgeClass="badge badge-orange"
+            badgeClass="badge badge-blue"
           />
 
           <MetricCard
@@ -405,7 +405,7 @@ export default function DebtsPage() {
               <Loader2
                 className="spin"
                 size={20}
-                style={{ color: "var(--orange)" }}
+                style={{ color: "var(--blue)" }}
               />
             ) : null}
           </div>
@@ -478,7 +478,7 @@ export default function DebtsPage() {
 
                     <span
                       className={
-                        isPaid ? "badge badge-green" : "badge badge-orange"
+                        isPaid ? "badge badge-green" : "badge badge-blue"
                       }
                     >
                       {isPaid ? "Paid" : debt.status}
@@ -636,7 +636,7 @@ export default function DebtsPage() {
                               paid
                                 ? "badge badge-green"
                                 : overdue
-                                  ? "badge badge-orange"
+                                  ? "badge badge-blue"
                                   : "badge badge-blue"
                             }
                           >
@@ -921,3 +921,6 @@ function NoticeCard({ title, text, actionLabel, onAction }: NoticeCardProps) {
     </div>
   );
 }
+
+
+

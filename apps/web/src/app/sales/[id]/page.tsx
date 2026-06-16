@@ -199,7 +199,7 @@ export default function SaleDetailsPage() {
 
               <span
                 className={
-                  fullyPaid ? "badge badge-green" : "badge badge-orange"
+                  fullyPaid ? "badge badge-green" : "badge badge-blue"
                 }
               >
                 {fullyPaid ? "Fully paid" : "Balance left"}
@@ -232,7 +232,7 @@ export default function SaleDetailsPage() {
                 help={fullyPaid ? "Fully paid" : "Customer still owes money"}
                 badge="Balance"
                 badgeClass={
-                  fullyPaid ? "badge badge-green" : "badge badge-orange"
+                  fullyPaid ? "badge badge-green" : "badge badge-blue"
                 }
               />
 
@@ -301,7 +301,7 @@ export default function SaleDetailsPage() {
                   </div>
 
                   {hasInstallments ? (
-                    <span className="badge badge-orange">Installment plan</span>
+                    <span className="badge badge-blue">Installment plan</span>
                   ) : null}
                 </div>
 
@@ -354,7 +354,7 @@ export default function SaleDetailsPage() {
                           className={
                             installment.balanceRwf <= 0
                               ? "badge badge-green"
-                              : "badge badge-orange"
+                              : "badge badge-blue"
                           }
                         >
                           {installment.balanceRwf <= 0
@@ -409,7 +409,7 @@ export default function SaleDetailsPage() {
                       <span
                         className={
                           item.soldBelowMinimum
-                            ? "badge badge-orange"
+                            ? "badge badge-blue"
                             : "badge badge-blue"
                         }
                       >
@@ -553,3 +553,6 @@ function MiniInfo({ label, value }: MiniInfoProps) {
     </div>
   );
 }
+
+
+
