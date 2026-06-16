@@ -1,6 +1,6 @@
 import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 
-import { db } from "@erc/db";
+import { db } from "@techtrack/db";
 import { requireAuth } from "../auth/auth.middleware.js";
 import { sql } from "drizzle-orm";
 import { z } from "zod";

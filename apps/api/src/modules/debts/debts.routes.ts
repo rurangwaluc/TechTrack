@@ -8,7 +8,7 @@ import {
   salePayments,
   sales,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 import { desc, eq } from "drizzle-orm";
 import {
   makeBusinessDate,

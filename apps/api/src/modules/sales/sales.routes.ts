@@ -10,7 +10,7 @@ import {
   sales,
   stockMovements,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 import { desc, eq, ilike } from "drizzle-orm";
 import {
   makeBusinessDate,

@@ -1,4 +1,4 @@
-import { cashSessions, db, moneyLedger, users } from "@erc/db";
+import { cashSessions, db, moneyLedger, users } from "@techtrack/db";
 import { desc, eq } from "drizzle-orm";
 import {
   makeBusinessDate,

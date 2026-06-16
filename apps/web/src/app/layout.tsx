@@ -13,15 +13,15 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vuba Electronics",
-    template: "%s | Vuba Electronics",
+    default: "Tech Track",
+    template: "%s | Tech Track",
   },
-  description: "Business control system for Vuba Electronics.",
+  description: "Business control system for Tech Track.",
   manifest: "/manifest.webmanifest",
-  applicationName: "Vuba Electronics",
+  applicationName: "Tech Track",
   appleWebApp: {
     capable: true,
-    title: "Vuba Electronics",
+    title: "Tech Track",
     statusBarStyle: "default",
   },
 };

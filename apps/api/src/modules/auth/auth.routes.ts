@@ -1,5 +1,5 @@
 import { and, eq, isNull } from "drizzle-orm";
-import { db, sessions, users } from "@erc/db";
+import { db, sessions, users } from "@techtrack/db";
 
 import type { FastifyInstance } from "fastify";
 import bcrypt from "bcryptjs";

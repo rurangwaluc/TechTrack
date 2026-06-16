@@ -12,7 +12,7 @@ import {
   salePayments,
   sales,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 import { requireAuth, requirePermission } from "../auth/auth.middleware.js";
 
 import type { FastifyInstance } from "fastify";

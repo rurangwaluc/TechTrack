@@ -1,20 +1,22 @@
 import "dotenv/config";
-import bcrypt from "bcryptjs";
-import { eq } from "drizzle-orm";
+
+import {
+  ALL_PERMISSIONS,
+  RESPONSIBILITY_GROUPS,
+  RESPONSIBILITY_GROUP_LABELS,
+  RESPONSIBILITY_GROUP_PERMISSIONS,
+  USER_ROLES,
+} from "@techtrack/shared";
 import {
   db,
   permissions,
   responsibilityGroupPermissions,
   responsibilityGroups,
   users,
-} from "@erc/db";
-import {
-  ALL_PERMISSIONS,
-  RESPONSIBILITY_GROUP_LABELS,
-  RESPONSIBILITY_GROUP_PERMISSIONS,
-  RESPONSIBILITY_GROUPS,
-  USER_ROLES,
-} from "@erc/shared";
+} from "@techtrack/db";
+
+import bcrypt from "bcryptjs";
+import { eq } from "drizzle-orm";
 
 async function main() {
   const ownerEmail = process.env.OWNER_EMAIL?.toLowerCase();

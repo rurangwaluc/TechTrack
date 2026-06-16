@@ -1,5 +1,5 @@
 import { and, eq } from "drizzle-orm";
-import { cashSessions, db } from "@erc/db";
+import { cashSessions, db } from "@techtrack/db";
 
 import type { FastifyReply } from "fastify";
 

@@ -12,8 +12,8 @@
     "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
-      "@erc/db": ["packages/db/src/index.ts"],
-      "@erc/shared": ["packages/shared/src/index.ts"]
+      "@techtrack/db": ["packages/db/src/index.ts"],
+      "@techtrack/shared": ["packages/shared/src/index.ts"]
     }
   }
 }

@@ -2,7 +2,7 @@ import {
   ALL_PERMISSIONS,
   RESPONSIBILITY_GROUPS,
   RESPONSIBILITY_GROUP_LABELS,
-} from "@erc/shared";
+} from "@techtrack/shared";
 import { and, eq, inArray } from "drizzle-orm";
 import {
   db,
@@ -11,7 +11,7 @@ import {
   userPermissions,
   userResponsibilityGroups,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 import { requireAuth, requireOwner } from "../auth/auth.middleware.js";
 
 import type { FastifyInstance } from "fastify";

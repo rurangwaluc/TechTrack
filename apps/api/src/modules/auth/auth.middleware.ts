@@ -9,7 +9,7 @@ import {
   userPermissions,
   userResponsibilityGroups,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 
 type AuthTokenPayload = {
   userId: string;

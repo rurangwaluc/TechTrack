@@ -1,4 +1,4 @@
-import { db, expenseCategories, expenses, moneyLedger, users } from "@erc/db";
+import { db, expenseCategories, expenses, moneyLedger, users } from "@techtrack/db";
 import { desc, eq, ilike, or } from "drizzle-orm";
 import {
   makeBusinessDate,

@@ -8,7 +8,7 @@ import {
   moneyLedger,
   products,
   sales,
-} from "@erc/db";
+} from "@techtrack/db";
 import { desc, eq } from "drizzle-orm";
 import { requireAuth, requirePermission } from "../auth/auth.middleware.js";
 

@@ -1,4 +1,4 @@
-import { auditLogs, db } from "@erc/db";
+import { auditLogs, db } from "@techtrack/db";
 
 type AuditInput = {
   actorUserId?: string | null;

@@ -5,7 +5,7 @@ import {
   stockArrivals,
   stockMovements,
   users,
-} from "@erc/db";
+} from "@techtrack/db";
 import { desc, eq, ilike } from "drizzle-orm";
 import { requireAuth, requirePermission } from "../auth/auth.middleware.js";
 

@@ -1,4 +1,4 @@
-import { customers, db } from "@erc/db";
+import { customers, db } from "@techtrack/db";
 import { desc, eq, ilike, or } from "drizzle-orm";
 import { requireAuth, requirePermission } from "../auth/auth.middleware.js";
 
